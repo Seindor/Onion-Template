@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"flameworkVersion": "1.3.2",
+	"identifiers": {
+		"flamework:out/server/presentation/services/PlayersService@PlayersService": "server/presentation/services/PlayersService@PlayersService",
+		"flamework:out/shared/di/container@Container": "shared/di/container@Container",
+		"flamework:out/shared/di/container@Scope": "shared/di/container@Scope",
+		"flamework:out/shared/modules/utilities/eventBus@LocalConnection": "shared/modules/utilities/eventBus@LocalConnection",
+		"flamework:out/shared/modules/utilities/eventBus@EventSlot": "shared/modules/utilities/eventBus@EventSlot",
+		"flamework:out/shared/modules/utilities/eventBus@EventBus": "shared/modules/utilities/eventBus@EventBus",
+		"flamework:out/server/applicationServices/statusEffects/statsEffectsApi@StatusEffectsApi": "server/applicationServices/statusEffects/statsEffectsApi@StatusEffectsApi",
+		"flamework:out/server/infrastructure/PlayersService@PlayersService": "server/infrastructure/PlayersService@PlayersService",
+		"flamework:out/server/infrastructure/entity/entityRegistry@EntityRegistry": "server/infrastructure/entity/entityRegistry@EntityRegistry",
+		"flamework:out/server/infrastructure/statusEffects/statusEffectsStore@MapStatusEffectsStore": "server/infrastructure/statusEffects/statusEffectsStore@MapStatusEffectsStore",
+		"flamework:out/server/api/statsEffectsApi@StatusEffectsApi": "server/api/statsEffectsApi@StatusEffectsApi",
+		"flamework:out/server/api/statusEffects/statsEffectsApi@StatusEffectsApi": "server/api/statusEffects/statsEffectsApi@StatusEffectsApi",
+		"flamework:out/server/services/PlayersService@PlayersService": "server/services/PlayersService@PlayersService",
+		"flamework:out/shared/DI/Container@Container": "shared/DI/Container@Container",
+		"flamework:out/shared/DI/Container@Scope": "shared/DI/Container@Scope",
+		"flamework:out/shared/Modules/Utilities/EventBus@LocalConnection": "shared/Modules/Utilities/EventBus@LocalConnection",
+		"flamework:out/shared/Modules/Utilities/EventBus@EventSlot": "shared/Modules/Utilities/EventBus@EventSlot",
+		"flamework:out/shared/Modules/Utilities/EventBus@EventBus": "shared/Modules/Utilities/EventBus@EventBus",
+		"flamework:out/shared/Domain/StatusEffects/Aggregates/StatusInstance@StatusInstance": "shared/Domain/StatusEffects/Aggregates/StatusInstance@StatusInstance",
+		"flamework:out/shared/Domain/StatusEffects/Services/StatusEffectsService@StatusEffectsService": "shared/Domain/StatusEffects/Services/StatusEffectsService@StatusEffectsService",
+		"flamework:out/shared/Domain/StatusEffects/Api/StatusEffectsFacade@StatusEffectsFacade": "shared/Domain/StatusEffects/Api/StatusEffectsFacade@StatusEffectsFacade",
+		"flamework:out/shared/Application/Handlers/StatusHandler@StatusEffectsHandler": "shared/Application/Handlers/StatusHandler@StatusEffectsHandler",
+		"flamework:out/shared/Application/Handlers/PlayerHandler@PlayerHandler": "shared/Application/Handlers/PlayerHandler@PlayerHandler"
+	},
+	"metadata": {}
+}

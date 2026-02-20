@@ -1,0 +1,44 @@
+{
+  "parser": "@typescript-eslint/parser",
+
+  "parserOptions": {
+    "jsx": true,
+    "useJSXTextNode": true,
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": ["/out", "scripts/**", "tools/**"],
+
+  "plugins": ["@typescript-eslint", "roblox-ts", "prettier"],
+
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:roblox-ts/recommended-legacy",
+    "plugin:prettier/recommended"
+  ],
+
+  "rules": {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "prettier/prettier": "warn",
+
+    "@typescript-eslint/no-require-imports": "off",
+    "roblox-ts/lua-truthiness": "off"
+  },
+  "overrides": [
+    {
+      "files": ["scripts/**/*.{js,cjs,mjs}"],
+      "env": { "node": true },
+      "parserOptions": {
+        "sourceType": "script",
+        "project": null
+      },
+      "rules": {
+        "no-undef": "off",
+        "roblox-ts/no-array-pairs": "off"
+      }
+    }
+  ]
+}
